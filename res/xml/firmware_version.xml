@@ -61,9 +61,9 @@
     <!-- ROM Maintainer, in case of Shsihufied Builds-->
     <Preference
         android:key="who_to_blame"
-        android:title="@string/device_maintainer"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ROMShishufiedMaintainerPreferenceController"/>
+        android:title="@string/maintainer"
+        android:summary="@string/maintainer_name"
+        settings:enableCopying="true" />
 
     <!-- Android version -->
     <Preference
